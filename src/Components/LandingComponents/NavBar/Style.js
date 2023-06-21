@@ -32,6 +32,13 @@ export const BottonLogin = styled.button`
   justify-content: center;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(181, 5, 14);
+    transition: 500ms;
+  }
+
 `;
 
 export const Select = styled.select`
