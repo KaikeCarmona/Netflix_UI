@@ -4,7 +4,7 @@ import Landing from "../../Components/LandingComponents/LandingPageComponent/Lan
 import Faq from "../../Components/LandingComponents/Faq/Faq";
 import Footer from "../../Components/LandingComponents/Footer/Footer";
 
-import { Background, Container, Teste,   } from "./Styles";
+import { Background, Container, LandingColor } from "./Styles";
 
 export default function LandingPage() {
   return (
@@ -16,7 +16,7 @@ export default function LandingPage() {
         <Faq />
         <Footer />
       </Container>
-      <Teste/>
-     </Background>
+      <LandingColor />
+    </Background>
   );
 }

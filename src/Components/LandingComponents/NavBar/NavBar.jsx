@@ -3,6 +3,7 @@ import { useState } from "react";
 import image from "../../../../src/assets/download.svg";
 
  
+ 
 export default function NavBar() {
   const [selectedOption, setSelectedOption] = useState("option1");
 
@@ -16,12 +17,12 @@ export default function NavBar() {
         <Logo src={image} />
         <Botoes>
           <Select value={selectedOption} onChange={handleSelectChange}>
-            <Option value="option1"> Português </Option>
+            <Option value="option1">🌐 Português </Option>
             <Option value="option2">Ingles</Option>
             <Option value="option3">Frances</Option>
           </Select>
           <BottonLogin>
-            <p>Entrar</p>
+            <a href={`/Login`} style={{margin: '0 auto', color: '#fff', textDecoration: 'none'}} >Entrar</a>
           </BottonLogin>
         </Botoes>
       </Header>

@@ -8,7 +8,6 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 `;
 
 export const Logo = styled.img`
@@ -26,19 +25,17 @@ export const BottonLogin = styled.button`
   height: 32px;
   background-color: #e50915;
   border: none;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 5px; 
   color: #fff;
   font-weight: bold;
   cursor: pointer;
+  transition: 500ms;
+
 
   &:hover {
     background-color: rgb(181, 5, 14);
     transition: 500ms;
   }
-
 `;
 
 export const Select = styled.select`

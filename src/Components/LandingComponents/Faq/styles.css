@@ -1,0 +1,88 @@
+.containerFaq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 96px 96px;
+  margin: 5rem 0px 0px 0px;
+}
+
+.accordion {
+  width: 100%;
+}
+
+div.accordion-item {
+  background-color: rgba(19, 33, 68, 1);
+}
+
+button.accordion-button {
+  color: #fff;
+  padding: 2.5rem;
+  width: 100%;
+  display: flex;
+  background-color: rgba(19, 33, 68, 1);
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  transition: 500ms;
+}
+
+button.accordion-button.collapsed {
+  height: 40px;
+}
+
+button.accordion-button .collapsed {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+button.accordion-button:hover {
+  background-color: rgb(39, 57, 105);
+  transition: 500ms;
+}
+
+div.accordion-body {
+  line-height: 1.8rem;
+  /* font-size: 1.2rem; */
+  padding: 1.4rem;
+  font-weight: 500;
+  background-color: rgba(19, 33, 68, 1);
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.containerFaqs span {
+  font-size: 0.5rem;
+}
+
+.plus {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1123px) {
+  button.accordion-button {
+    padding: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .plus {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  button.accordion-button {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  button.accordion-button {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+  .containerFaq {
+    padding: 0 16px 96px;
+  }
+}

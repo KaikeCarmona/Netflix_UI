@@ -14,7 +14,7 @@ export default function Cadastro() {
     <ContainerCadastro>
       <ContainerText>
         <LargeText>
-          Filmes, séries e muito <br /> mais, sem limites
+          Filmes, séries e muito mais, sem limites
         </LargeText>
         <MediumTextBold>
           Assista onde quiser. Cancele quando quiser.
